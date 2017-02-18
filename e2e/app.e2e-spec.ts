@@ -1,6 +1,6 @@
 import { AngularCliI18nSamplePage } from './app.po';
 
-describe('angular-cli-i18n-sample App', function() {
+describe('angular-cli-i18n-sample App', () => {
   let page: AngularCliI18nSamplePage;
 
   beforeEach(() => {

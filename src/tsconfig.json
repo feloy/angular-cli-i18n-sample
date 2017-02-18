@@ -5,11 +5,11 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "lib": [
-      "es6",
+      "es2016",
       "dom"
     ],
     "mapRoot": "./",
-    "module": "es6",
+    "module": "es2015",
     "moduleResolution": "node",
     "outDir": "../dist/out-tsc",
     "sourceMap": true,
@@ -17,11 +17,5 @@
     "typeRoots": [
       "../node_modules/@types"
     ]
-  },
-  "exclude": [
-    "test.ts"
-  ],
-  "angularCompilerOptions": {
-    "genDir": "i18n"
   }
 }
